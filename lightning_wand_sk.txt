@@ -1,0 +1,5 @@
+on right click:
+  if player's tool is End Rod:
+    if uncolored name of player's tool is "Lightning Wand":
+      cancel event
+      strike lightning at the target block
