@@ -1,0 +1,9 @@
+on right click:
+  if player's tool is End Rod:
+    if uncolored name of player's tool is "Lightning Wand":
+      cancel event
+      {x} is not set
+      set {x} to true
+      strike lightning at the target block
+      wait 4 seconds
+      delete {x}
